@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/ktv_line_div"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:dividerPadding="10dp"
+    tools:context="com.jay.example.linearlayoutdemo.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/主页1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+    <Button
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/箭头2"
+        android:drawablePadding="3dp"
+        android:text="修改密码" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/箭头2"
+        android:text="修改手机号" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/箭头2"
+        android:text="员工管理" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#FFFFFF" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/箭头2"
+        android:text="退出账号" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+</LinearLayout>
